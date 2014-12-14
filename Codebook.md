@@ -14,10 +14,12 @@ Unique identifier for the subject who performed the activity. Its range is 1 to 
     * WALKING_UPSTAIRS
 
 * tBodyAccmeanX
-The mean of the variable tBodyAcc-mean()-X in the original data source.
+
+   The mean of the variable tBodyAcc-mean()-X in the original data source.
 
 * tBodyAccmeanY
-The mean of the variable tBodyAcc-mean()-Y in the original data source.
+
+   The mean of the variable tBodyAcc-mean()-Y in the original data source.
 
 * tBodyAccmeanZ
 The mean of the variable tBodyAcc-mean()-Z in the original data source.
