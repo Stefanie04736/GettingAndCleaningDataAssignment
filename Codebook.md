@@ -279,3 +279,6 @@
 * fBodyGyroJerkMagstd
 
    The mean of the variable fBodyBodyGyroJerkMag-std() in the original data source.
+   
+
+For further information on the mentioned variables see features_info.txt.
