@@ -57,15 +57,15 @@ data <-data[,c("subject","activity",featuresmeanstd)]
 
 # Use the feature names, but remove minus and paranthesis
 colnames(data) <- gsub("-|\\(\\)","",colnames(data))
-# correckt mistakes in original feature names, i. e. replacing "BodyBody" 
+# correct mistakes in original feature names, i. e. replacing "BodyBody" 
 # by only "Body"
 colnames(data) <- gsub("BodyBody","Body",colnames(data))
 
 
 # 5. Create a second, independent tidy data set with the average of each variable 
+#    for each activity and each subject. 
 # ---------------------------------------------------------------------------------
 
-#    for each activity and each subject. 
 tidydata <- data %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 
 
